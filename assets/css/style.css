@@ -1,0 +1,154 @@
+.w-100 {
+	width: 100%;
+}
+.fullpage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.w-3 {
+	width: 440px;
+}
+.amountadd input {
+  width: 100%;
+  border: 0;
+  box-shadow: 0 0 2px 1px #ddd;
+  height: 100px;
+}
+.amountadd input {
+  width: 100%;
+  border: 0;
+  box-shadow: 0 0 2px 1px #ddd;
+  height: 90px;
+  padding: 15px 25px;
+  padding-left: 50px;
+  font-size: 25px;
+  color: #1571a2;
+}
+.amountadd span, .amountadd label {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #252525;
+  font-size: 15px;
+  line-height: 28px;
+}
+.amountadd span {
+  color: #1571a2;
+  font-weight: 400;
+  font-size: 18px;
+}
+.amountadd label {
+  color: #b8b8b8;
+  left: 50px;
+  transition: all .4s linear;
+  cursor: auto;
+}
+.amountadd input:focus ~ label, .amountadd  input:not(:placeholder-shown) ~ label {
+	top: 54px;
+font-size: 13px;
+}
+.amountadd {
+  margin-top: -55px;
+}
+.amountadd p {
+  color: #b8b8b8;
+  margin: 10px 0;
+}
+.payoption input {
+  display: none;
+}
+.payoption label {
+  width: 100%;
+  position: relative;
+  display: block;
+  border-bottom: 1px solid #b8b8b8;
+  padding: 16px 0;
+  cursor: pointer;
+  color: #3a4865;
+}
+.payoption label::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #b8b8b8;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.payoption input[type="radio"]:checked + label::before {
+	background: #1fba32;
+	border-color: #1fba32;
+}
+input {
+	outline: none !important;
+	box-shadow: none !important;
+}
+.submitpay {
+	padding: 12px;
+	border-radius: 8px;
+	background: #469ff2;
+	text-align: center;
+	color: #fff;
+	border: 0;
+	margin: 30px 0;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif !important;
+}
+.payoption label i img {
+  width: 100%;
+}
+.payoption label i {
+  width: 45px;
+  height: 45px;
+  background: #dceef7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  margin-right: 10px;
+  justify-content: center;
+}
+.payoption label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.amountadd input {
+  border: 1px dashed #b8b8b8;
+}
+.w-3 {
+  border: 1px solid #b8b8b8;
+  margin-bottom: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+@media (max-width: 480px) {
+	.w-3 {
+	width: 440px;
+}
+.w-3 {
+  border: 0;
+}
+
+}

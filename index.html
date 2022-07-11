@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pay</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<div class="w-100 fullpage">
+	<div class="w-3">
+		<div class="w-100" style="background: #1571a2;height: 80px;">
+			
+		</div>
+		<div class="w-100 amountadd" style="padding: 0 20px;">
+			<div class="w-100" style="position: relative;">
+			<input id="amount" type="number" name="" placeholder="">
+			<span>₹</span><label for="amount">The amount you need to pay</label>
+		</div>
+		<div class="w-100">
+			<p>Select an option to pay (UPI)</p>
+		</div>
+		</div>
+		<div class="w-100 payoption" style="padding: 0 20px;">
+			<form>
+			<div class="w-100">
+				<input type="radio" id="paytm" name="pay">
+				<label for="paytm"><i><img src="assets/img/paytm.png" /></i>PayTm</label>
+			</div>
+
+			<div class="w-100">
+				<input type="radio" id="phonepe" name="pay">
+				<label for="phonepe"><i><img src="assets/img/phonepe.png" /></i>Phonepe</label>
+			</div>
+
+			<div class="w-100">
+				<input type="radio" id="googlepay" name="pay">
+				<label for="googlepay"><i><img src="assets/img/gpay.png" /></i>GooglePay</label>
+			</div>
+
+			<div class="w-100">
+				<input type="radio" id="mobikwik" name="pay">
+				<label for="mobikwik"><i><img src="assets/img/mobikwik.png" /></i>Mobikwik</label>
+			</div>
+
+			<div class="w-100">
+				<input type="radio" id="bhim" name="pay">
+				<label for="bhim"><i style="padding: 14px;"><img src="assets/img/bhim.png" /></i>BHIM</label>
+			</div>
+
+			<div class="w-100">
+				<input type="radio" id="otherupi" name="pay">
+				<label for="otherupi"><i><img src="assets/img/other.png" /></i>Other UPI</label>
+			</div>
+			<div class="w-100">
+				<button class="submitpay w-100" >Pay ₹1</button>
+			</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>
